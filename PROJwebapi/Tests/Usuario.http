@@ -1,0 +1,19 @@
+
+###Listar os usuarios
+
+GET https://localhost:5001/api/usuario/listar
+
+###Cadastrar um usuario
+
+POST https://localhost:5001/api/usuario/cadastrar
+Content-Type: application/json
+
+{
+    "Email" : "ana@json.com " ,
+    "Senha" : "senha"
+}
+
+###Buscar usuário
+
+GET https://localhost:5001/api/usuario/buscar/ana@json.com
+

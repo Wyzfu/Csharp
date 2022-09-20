@@ -1,0 +1,21 @@
+//criar um único objeto:chaves
+
+{
+    "Email" : "ana@json.com " ,
+    "Senha" : "senha" ,
+    "Acessos" : 10 , //valor numérico n tem áspas duplas (INT)
+    "Avaliação" : 4.9 ,
+    "Ativo" : true , //valor boleano n precisa de áspas duplas
+    "permissoes" : [
+        "adm" , "user"
+    ]
+}
+
+//criar vários objetos:colchetes
+
+[
+
+]
+
+
+//Para ter mais segurança no site, e não aparecer as informações na URL, nós escrevemos no json
